@@ -73,7 +73,7 @@ exports.postEditProduct = (req, res, next) => {
       res.redirect('/admin/products');
     })
     .catch(err => console.log(err));
-};
+}
 
 exports.getProducts = (req, res, next) => {
   req.user
